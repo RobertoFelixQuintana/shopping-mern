@@ -73,7 +73,7 @@ const App = () => {
           element={<CreateProductPage onSave={handleOnSave} />}
         />
         <Route
-          path="create-product/:productId"
+          path="product/:productId"
           element={<CreateProductPage onSave={handleOnEdit} />}
         />
         <Route path="*" element={<NotFoundPage />} />

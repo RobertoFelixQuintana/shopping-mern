@@ -6,7 +6,6 @@ import "./Product.css";
 const Product = ({ product, productId, handleOnDelete }) => {
   const [ammount, setAmmount] = useState(undefined);
   const handleChangeInput = (event) => {
-    console.log(event);
     setAmmount(product.price * event.target.value);
   };
   return (
@@ -69,7 +68,7 @@ const Product = ({ product, productId, handleOnDelete }) => {
             <button className="btn btn-success">Buy</button>
             <Link
               className="edit-btn-product btn btn-primary"
-              to={`/create-product/${productId}`}
+              to={`/product/${productId}`}
             >
               Edit
             </Link>
