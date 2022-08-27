@@ -1,0 +1,10 @@
+.list-products-container {
+  width: 100%;
+  padding: 3rem 4rem 4rem 4rem;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+

@@ -1,0 +1,41 @@
+.card {
+  max-width: 360px;
+  min-width: 300px;
+  height: auto;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  padding: 1rem;
+}
+.card-header-title-h3 {
+  font-size: 15px;
+  font-weight: 800;
+}
+.card-text {
+  font-size: 14px;
+}
+.card-header {
+  background-color: white;
+}
+.card-header-title {
+  padding-top: 1rem;
+}
+.card-body-btn {
+  text-decoration: none;
+  color: white;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.card-header-img {
+  padding: 4rem;
+}
+.form-card-body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.card-body-details-text {
+    padding-bottom: 1.2rem;
+}
